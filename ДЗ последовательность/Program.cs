@@ -7,9 +7,11 @@ namespace ДЗ_последовательность
         static void Main(string[] args)
         {
             int dayeYears = 365;
-            for (int i = 5; i <= dayeYears; i += 7)
+            int reportingDate = 5;
+            int weekdays = 7;
+            for (reportingDate  = 5; reportingDate <= dayeYears; reportingDate += weekdays)
             {
-                Console.WriteLine($"День {i} c начала отчета");
+                Console.WriteLine(reportingDate);
             }
         }
     }
